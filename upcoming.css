@@ -10,6 +10,7 @@ body{
     object-fit: contain;
 }
 .image_logo{
+    display: flex;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -99,4 +100,17 @@ ul {
 }
 .time{
     padding-left: 90px;
+}
+.dark_mode{
+    background-color: #373737;
+    color: white;
+}
+.card_dark_mode{
+    border: 0.5px solid white;
+}
+@media screen and (max-width: 600px) {
+    .docyard_logo{
+        height: 30px;
+    }
+    
 }
